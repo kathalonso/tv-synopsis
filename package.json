@@ -1,0 +1,29 @@
+{
+  "name": "tv-synopsis",
+  "version": "1.0.0",
+  "description": "In the initial commit to this project, you have been provided with a data set for a TV show. Your task is to create an Express/Pug powered website that will display the information in a manner similar to the screenshots below.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathalonso/tv-synopsis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathalonso/tv-synopsis/issues"
+  },
+  "homepage": "https://github.com/kathalonso/tv-synopsis#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "nodemon": "^2.0.4",
+    "pug-lint": "^2.6.0"
+  }
+}

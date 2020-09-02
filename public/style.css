@@ -1,0 +1,43 @@
+.subtext{
+    padding-left: 2%;
+}
+
+.season {
+    text-align: center;
+}
+.heading {
+    color: white; 
+    background-color:#6699ff;
+}
+.no {
+    width: 5%;
+}
+.title {
+    width: 60%;
+}                
+.dir {
+    width: 35%;
+}                    
+body {
+    padding-bottom: 5%;
+}
+table {
+    margin:0 auto; 
+    width: 75%;
+}
+table, td, th {
+        border: 1px solid black;
+        border-collapse: collapse;
+}
+th {
+    font-size: 20px;
+}
+td, th {
+    padding: 10px 10px;
+}
+td {
+    font-size: 18px;
+}
+.epno {
+    text-align: center;
+}
