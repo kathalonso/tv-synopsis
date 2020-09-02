@@ -1,0 +1,25 @@
+html
+    head 
+        link(rel="stylesheet", href="/style.css")
+        title Kim's Convenience
+    body
+        h1= showData.title
+        div.remark(class="subtext")
+            h2 Developed By
+            div.remark
+                ul
+                    for name in showData.developedBy
+                        li= name
+
+            h2 Starring
+            div.remark
+            for actors in showData.starring
+                ul
+                    li= actors
+
+            h2 Seasons
+            div.remark
+            for season in showData.seasons
+                ul
+                    li
+                        a(href=`/season/${season.number}`)= `Season ${season.number}`
